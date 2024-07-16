@@ -1,0 +1,32 @@
+{
+    "homepage": "https://github.com/Kushalbaldev/react-repo",
+    "name": "react-app",
+    "private": false,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist",
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "start": "react-scripts start",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "dependencies": {
+        "bootstrap": "^5.2.3",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.27",
+        "@types/react-dom": "^18.0.10",
+        "@vitejs/plugin-react": "^3.1.0",
+        "gh": "^2.8.9",
+        "gh-pages": "^6.1.1",
+        "pages": "^0.0.16",
+        "typescript": "^4.9.3",
+        "vite": "^4.1.0"
+    }
+}
